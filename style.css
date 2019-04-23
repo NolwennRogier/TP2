@@ -8,9 +8,12 @@
 {
 	background: #ccc;
 	padding: 20px;
+    background-color: palegreen;
+    text-align: center;
 }
 
-#header h1 { margin: 0; }
+#header h1 { margin: 0;
+color: red;}
 
 #navigation
 {
@@ -53,7 +56,7 @@
 	-webkit-box-shadow: 0px 0px 6px #000000;
 	box-shadow: 0px 0px 6px #000000;
 	background-image: -webkit-gradient(linear, left top, right top, from(#d6e1ff), to(#dbffe7));
-	background-image: -webkit-linear-gradient(left, #d6e1ff, #dbffe7);
+	background-image: -webkit-linear-gradient(left, red , palegreen);
 	background-image: linear-gradient(left, #d6e1ff, #dbffe7);
 	-webkit-background-clip: padding-box;
 	background-clip: padding-box;
@@ -65,6 +68,8 @@
 	color: #000;
 	font-size: 160%;
 	margin: 0 0 .5em;
+    text-align: center;
+    color: palegreen;
 }
 
 #news
@@ -78,12 +83,12 @@
 	-webkit-box-shadow: 0px 0px 6px #000000;
 	box-shadow: 0px 0px 6px #000000;
 	background-image: -webkit-gradient(linear, left top, right top, from(#d6e1ff), to(#dbffe7));
-	background-image: -webkit-linear-gradient(left, #d6e1ff, #dbffe7);
+	background-image: -webkit-linear-gradient(left, red , palegreen);
 	background-image: linear-gradient(left, #d6e1ff, #dbffe7);
 	-webkit-background-clip: padding-box;
 	background-clip: padding-box;
 	opacity: 0.83;
-    color: yellow;
+    color: black;
 }
 
 #footer
